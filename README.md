@@ -1,4 +1,7 @@
+<img src="public/favicon.ico" width="48"/>
+  
 ## `React Meals`
+
 
 <p align="left">
 <img src="https://user-images.githubusercontent.com/47937044/161846568-35e1282c-8fcb-4780-9e63-26eee2f1b2cc.png" width="740" alt="" />
