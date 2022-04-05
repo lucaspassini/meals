@@ -1,10 +1,15 @@
 <img src="public/favicon.ico" width="48"/>
   
-## `React Meals`
+  
+## React Meals
+
+[![Author](https://img.shields.io/badge/author-lucaspassini-191F2B?style=flat-square)](https://github.com/lucaspassini)
+[![Stars](https://img.shields.io/github/stars/lucaspassini/react-meals?color=191F2B&style=flat-square)](https://github.com/lucaspassini/react-meals/stargazers)
+[![Forks](https://img.shields.io/github/forks/lucaspassini/react-meals?color=%23191F2B&style=flat-square)](https://github.com/lucaspassini/react-meals/network/members)
 
 
 <p align="left">
-<img src="https://user-images.githubusercontent.com/47937044/161846568-35e1282c-8fcb-4780-9e63-26eee2f1b2cc.png" width="740" alt="" />
+<img src="https://user-images.githubusercontent.com/47937044/161846568-35e1282c-8fcb-4780-9e63-26eee2f1b2cc.png" width="700" alt="" />
 
 
 ## 📕 About
