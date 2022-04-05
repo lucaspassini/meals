@@ -1,7 +1,7 @@
 ## `React Meals`
 
 <p align="left">
-<img src="https://user-images.githubusercontent.com/47937044/161663200-5c18dd36-727d-4080-aa2d-0b102723a057.png" width="650" alt="" />
+<img src="https://user-images.githubusercontent.com/47937044/161683008-7de6c853-c675-4767-a6d5-a41eb9f0add2.png" width="650" alt="" />
 
 
 ## 📕 About
