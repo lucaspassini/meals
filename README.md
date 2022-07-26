@@ -8,7 +8,7 @@
 [![Forks](https://img.shields.io/github/forks/lucaspassini/react-meals?color=%23191F2B&style=flat-square)](https://github.com/lucaspassini/react-meals/network/members)
 
 <p align="left">
-<img src="https://user-images.githubusercontent.com/47937044/161846568-35e1282c-8fcb-4780-9e63-26eee2f1b2cc.png" width="700" alt="" />
+<img src="https://user-images.githubusercontent.com/47937044/181117098-4c41a0de-ecd8-4f1e-9378-5b054559c5e7.png" width="700" alt="" />
 
 ## 📕 About
 
