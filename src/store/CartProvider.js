@@ -1,14 +1,14 @@
-import { useReducer } from 'react';
+import { useReducer } from "react";
 
-import CartContext from './cart-context';
+import CartContext from "./cart-context";
 
 const defaultCartState = {
   items: [],
-  totalAmount: 0
+  totalAmount: 0,
 };
 
 const cartReducer = (state, action) => {
-  if (action.type === 'ADD') {
+  if (action.type === "ADD") {
     const updatedTotalAmount =
       state.totalAmount + action.item.price * action.item.amount;
 
@@ -22,7 +22,7 @@ const cartReducer = (state, action) => {
     if (existingCartItem) {
       const updatedItem = {
         ...existingCartItem,
-        amount: existingCartItem.amount + action.item.amount
+        amount: existingCartItem.amount + action.item.amount,
       };
       updatedItems = [...state.items];
       updatedItems[existingCartItemIndex] = updatedItem;
@@ -32,10 +32,10 @@ const cartReducer = (state, action) => {
 
     return {
       items: updatedItems,
-      totalAmount: updatedTotalAmount
+      totalAmount: updatedTotalAmount,
     };
   }
-  if (action.type === 'REMOVE') {
+  if (action.type === "REMOVE") {
     const existingCartItemIndex = state.items.findIndex(
       (item) => item.id === action.id
     );
@@ -52,8 +52,12 @@ const cartReducer = (state, action) => {
 
     return {
       items: updatedItems,
-      totalAmount: updatedTotalAmount
+      totalAmount: updatedTotalAmount,
     };
+  }
+
+  if (action.type === "CLEAR") {
+    return defaultCartState;
   }
 
   return defaultCartState;
@@ -66,18 +70,23 @@ const CartProvider = (props) => {
   );
 
   const addItemToCartHandler = (item) => {
-    dispatchCartAction({ type: 'ADD', item: item });
+    dispatchCartAction({ type: "ADD", item: item });
   };
 
   const removeItemFromCartHandler = (id) => {
-    dispatchCartAction({ type: 'REMOVE', id: id });
+    dispatchCartAction({ type: "REMOVE", id: id });
+  };
+
+  const clearCartHandler = () => {
+    dispatchCartAction({ type: "CLEAR" });
   };
 
   const cartContext = {
     items: cartState.items,
     totalAmount: cartState.totalAmount,
     addItem: addItemToCartHandler,
-    removeItem: removeItemFromCartHandler
+    removeItem: removeItemFromCartHandler,
+    clearCart: clearCartHandler,
   };
 
   return (
