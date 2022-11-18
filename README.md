@@ -4,7 +4,7 @@
 # react meals [![Author](https://img.shields.io/badge/author-lucaspassini-lightgrey)](https://github.com/lucaspassini) [![Stars](https://img.shields.io/github/stars/lucaspassini/react-meals?color=lightgrey)](https://github.com/lucaspassini/react-meals/stargazers) [![Forks](https://img.shields.io/github/forks/lucaspassini/react-meals?color=lightgrey)](https://github.com/lucaspassini/react-meals/network/members)
 
 <p align="left">
-<img src="https://user-images.githubusercontent.com/47937044/181117098-4c41a0de-ecd8-4f1e-9378-5b054559c5e7.png" width="700" alt="" />
+<img src="https://user-images.githubusercontent.com/47937044/202593502-c6b8e2ea-4770-49ea-8e1e-7c11194d455f.png" width="700" alt="" />
 
 ## About
 
